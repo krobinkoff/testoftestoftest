@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Overlock+SC|Ubuntu');
+body {
+	background-color: rgba(153, 255, 204, 0.5);
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+}
+h2, h3, h4 {
+	font-family: 'IBM Plex Serif', serif;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+onclick {
+	color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: underline;
+	line-height: normal;
+}
+a:link {
+    color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+div.a {
+    line-height: normal;
+}
+footer {
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+	font-size: 2em;
+}
+footer a {
+	color: white;
+	padding: .4em;
+	font-size: 2em;
+}
+footer a:hover {
+	color: darkgreen;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 40%;
+}
+.navbar {
+	letter-spacing: 1px;
+}
+.navbar a:hover {
+    color: pink;
+	background-color: transparent;
+    text-decoration: underline;
+}
+.navbar a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px;
+}
+.sidenav a {
+    padding: 0px;
+    color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: none;
+	display: block;
+}
+.sidenav a:hover {
+    color: pink;
+	background-color: transparent;
+    text-decoration: underline;
+}
+.sidenav a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.sidenav i {
+  display: none;
+  opacity: 0;
+}
+.sidenav a:hover i {
+  display: inline-block;
+  opacity: 1;
+}
+.icon {
+    display: inline-block;
+    font-size: inherit;
+    height: 15px;
+    width: 15px;
+	margin-right: 1px;
+    overflow: visible;
+    vertical-align: -.125em;
+    text-rendering: auto;
+    background-size: contain;
+}
+.icon-japan {
+    background: url(https://image.flaticon.com/icons/svg/774/774832.svg) no-repeat center center;
+}
+.icon-japan2 {
+    background: url(https://image.flaticon.com/icons/svg/541/541705.svg) no-repeat center center;
+}
+.icon-japan3 {
+    background: url(https://image.flaticon.com/icons/svg/188/188128.svg) no-repeat center center;
+}
+.icon-japan4 {
+    background: url(https://image.flaticon.com/icons/svg/541/541708.svg) no-repeat center center;
+}
+.icon-japan5 {
+    background: url(https://image.flaticon.com/icons/svg/140/140067.svg) no-repeat center center;
+}
+.icon-japan6 {
+    background: url(https://image.flaticon.com/icons/svg/678/678122.svg) no-repeat center center;
+}
+.icon-japan7 {
+    background: url(https://image.flaticon.com/icons/svg/579/579114.svg) no-repeat center center;
+}
+.icon-japan8 {
+    background: url(https://image.flaticon.com/icons/svg/774/774863.svg) no-repeat center center;
+}
+.icon-japan9 {
+    background: url(https://image.flaticon.com/icons/svg/774/774871.svg) no-repeat center center;
+}
+.icon-japan10 {
+    background: url(https://image.flaticon.com/icons/svg/385/385937.svg) no-repeat center center;
+}
+.marginleft {
+	margin-left: 200px;
+}
+.marginlefty {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.black {
+	background: black;
+	margin-left: 60px;
+}
+.smallertext {
+	font-size: 12px;
+}
+.topheading {
+	font-family: 'Overlock SC', cursive;
+	font-size: 50px;
+}
+.bottomspacing {
+	padding-bottom: 10px;
+}
+.time {
+	padding-left: 40px;
+	padding-top: 1px;
+	padding-right: 40px;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	margin-left: 90px;
+	margin-right: 50px;
+	margin-top: 16px;
+}
+.time2 {
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-right: 10px;
+	margin-top: 16px;
+}
+.wide {
+	width: 1250px;
+	margin: 0 auto;
+}
+.kanjititle {
+	padding-top: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner {
+	display: block;
+    margin: auto;
+    width: 100%;
+}
+.carousel-item > img{
+    margin: auto;
+}
+.itemsize {
+	height: 500px;
+}
+.darkblue {
+	color: darkblue;
+}
+.link {
+	font-size: 1rem;
+}
+.somepadding {
+	padding-top: 10px;
+}
+.bg-info {
+	background-color:forestcolor;
+}
+.bordersquare {
+	border: 3px solid green;
+}
+.bordercircle {
+	border: 6px solid green;
+	border-radius: 1000px;
+	height: 160px;
+	width: 80%;
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	position: relative;
+	display: inline-block;
+}
+.bordercircle::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 6px solid green;
+	border-radius: 1000px;
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	opacity: 0;
+}
+#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+.tfbutton2 {
+		margin: 0;
+		padding: 5px 7px;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; 
+		border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+@media screen and (max-width: 1100px) {
+	body {
+		background: linear-gradient(powderblue, darkgrey);
+		background-repeat: repeat-x;
+	}
+	.sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
